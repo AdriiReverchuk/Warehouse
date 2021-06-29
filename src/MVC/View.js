@@ -1,3 +1,3 @@
-export class View{
-   constructor(){}
+export class View {
+   constructor() {}
 }
