@@ -1,20 +1,30 @@
-* {
-   background-color: rgb(226, 241, 85) !important;
-}
 html,
 body {
    height: 100%;
    background: #1f2227;
-   overflow: hidden;
+   overflow: scroll;
    margin: 0;
    padding: 0;
+}
+
+h1,
+h5 {
+   color: #fff !important;
+}
+h1 {
+   margin: 50px 0 !important;
+}
+.modal-title {
+   color: #000 !important;
 }
 .box {
    margin-top: 60px;
    margin-bottom: 250px;
+   color: #fff;
 }
 .box-c {
    margin-bottom: 200px;
+   color: #fff;
 }
 .figure {
    height: 100% !important;
@@ -137,7 +147,7 @@ body {
 .cube {
    position: relative;
    width: 95px;
-   margin-left: 20px;
+   margin-left: 70px;
    cursor: pointer !important;
 }
 .side {
@@ -163,12 +173,26 @@ body {
    transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
 }
 .btn {
-   color: #000;
-   border: 1px solid #000;
+   border: 1px solid rgb(0, 0, 0);
+   background-color: rgb(32, 135, 219);
+   color: #fff;
 }
 .btn:hover {
-   background-color: #1f2227 !important;
+   background-color: #e9a30d !important;
 }
 .btn-outline-dark:hover {
-   background-color: #1f2227 !important;
+   background-color: #e9a30d !important;
+}
+.modal-header {
+   border-bottom: none;
+}
+.modal-body {
+   border-top: solid 1px rgba(0, 0, 0, 0.295);
+   border-bottom: solid 1px rgba(0, 0, 0, 0.295);
+}
+.modal-footer {
+   border-top: none;
+}
+input {
+   color: #000;
 }
